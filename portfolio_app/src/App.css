@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Brush Script M7;
+  margin: 0;
+}
+
+header {
+  padding: 40px;
+  text-align: left;
+  background: #b79ec5;
+  color: #311753;
+}
+
+h3 {
+  margin-bottom: 20px;
+  font-size: 36px; 
+  color: rgb(219, 40, 94);
+} 
+
+.slogan {
+  font-size: large;
+  text-align: center;
+  font-family: cursive;
+  color: #411b43;
+}
+nav {
+  display: flex;
+  background-color: #ddd3e1;
+}
+nav a {
+  color: #041f38;
+  padding: 20px 20px;
+  text-decoration: underline;
+  text-align: right; 
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+}
+main {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+
+/* Add design to aside section of my code */
+aside {
+float: left;
+border-style: solid;
+border-width: 5px;
+border-radius: 50px;
+padding: 10px;
+margin-left: 500%;
+flex: 0 0 300px;
+box-shadow: 10px 10px 5px #aaaaaa;
+background-image: url("/Users/ulianai/bootcamp/w2_about_me_website/assets/unsplash.jpg");
+background-position: center;
+background-size: cover;
+margin: 5px;
+}
+
+/* Add style to my picture */
+.mypicture img {
+  display: block;
+  margin: 10px auto;
+  max-width: 350px;
+}
+
+/* Add design to my content section */
+.content {
+border-style: solid;
+border-width: 5px;
+border-radius: 50px;
+padding: 10px;
+margin-left: 500%;
+flex: 0 0 300px;
+box-shadow: 10px 10px 5px #7686bd;
+margin: 20px;
+}
+
+/* Add design to the id's  */
+.about-me, .portfolio, .contact-me  {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #f1cbeb;
+  color: #500250;  
+} 
+
+.footer {
+  padding: 30px;
+  clear: both;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  background-color: #b79ec5;
+}
