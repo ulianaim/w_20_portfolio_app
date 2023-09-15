@@ -1,5 +1,4 @@
-import Footer from "../components/footer";
-import Header from "../components/header";
+
 import Navbar from "../components/navbar";
 import ProjectContact from "../components/projectContact";
 
@@ -7,10 +6,10 @@ import ProjectContact from "../components/projectContact";
 function Contact () {
     return (
         <>
-        <Header/>
+        <div className="page">
         <Navbar/>
         <ProjectContact/>
-        <Footer/>
+        </div>
         </>
     )
 };

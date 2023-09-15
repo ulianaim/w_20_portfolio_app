@@ -1,7 +1,7 @@
 function ProjectAbout() {
   return (
-    <section class="content">
-      <section id="About-me" class="about-me">
+    <section className="content">
+      <section id="About-me" className="about-me">
         <h3>About me</h3>
         <p>
           My name is Uliana Imangulova. I am originally from Ukraine. I've been

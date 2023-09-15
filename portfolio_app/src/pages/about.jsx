@@ -1,15 +1,14 @@
-import Header from "../components/header";
+
 import Navbar from "../components/navbar";
 import ProjectAbout from "../components/projectAbout";
-import Footer from "../components/footer";
 
 function About () {
     return (
         <>
-        <Header/>
+        <div className="page">
         <Navbar/>
         <ProjectAbout/>
-        <Footer/>
+        </div>
         </>
     )
 };
