@@ -11,12 +11,14 @@ function ProjectPortfolio () {
                 I would love to present to you my resent work, please follow this link <a href="file:///Users/ulianai/bootcamp/w1_horiseon-marketing_agent/index.html">"My resent work"</a> to
              acces my latest website.
             </p>
+            <section id="portfolioCards">
             {
                 projects.map((project, i) => (
                     <DisplayPortfolio title={project.title} image={project.image} deploy={project.deploy} gitHub={project.gitHub}/>
                 )
              ) 
            }
+           </section>
         </section>
     </section>
     )

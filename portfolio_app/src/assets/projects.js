@@ -21,7 +21,7 @@ const projects = [
     },
 
     {
-        "title": "Weather Calendar",
+        "title": "Weather Cal",
         "image": "./images/weather.png",
         "deploy": "https://ulianaim.github.io/w6_weather_calendar/",
         "gitHub": "https://github.com/ulianaim/w6_weather_calendar"

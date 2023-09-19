@@ -73,10 +73,10 @@ border-style: solid;
 border-width: 5px;
 border-radius: 50px;
 padding: 10px;
-/* margin-left: 500%; */
-flex: 0 0 300px;
+margin-left: 500%;
 box-shadow: 10px 10px 5px #7686bd;
 margin: 20px;
+height: fit-content;
 }
 
 /* Add design to the id's  */
@@ -86,8 +86,8 @@ margin: 20px;
   justify-content: space-around;
   align-items: center;
   margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
+  /* padding: 50px; */
+  /* height: 300px; */
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: #f1cbeb;
   color: #500250;  
@@ -103,14 +103,23 @@ margin: 20px;
 
 .page {
   min-width: 100vw;
+  min-height: fit-content;
 }
 
 .portfolioImg {
-  height: 200px;
-  width: 200px;
+  height: 300px;
+  width: 300px;
 }
 
-.portfolioDiv {
+.portDiv {
   display: flex;
   flex-direction: column;
+  margin-right: 120px;
+}
+
+#portfolioCards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
