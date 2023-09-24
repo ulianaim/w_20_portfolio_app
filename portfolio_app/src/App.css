@@ -2,12 +2,36 @@
   box-sizing: border-box;
 } */
 
-body {
+/* body {
   display: flexs;
-  /* font-family: Brush Script M7;
+  font-family: Brush Script M7;
   min-width: 100vw;
-  min-height: fit-content; */
-}
+  min-height: fit-content;
+} */
+/* 
+#About-me {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+} */
+/* 
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+} */
 
 header {
   padding: 20px;
@@ -65,11 +89,19 @@ margin: 5px;
 } */
 
 /* Add style to my picture */
-/* .mypicture img {
+.myPicture img{
+  border-style: solid;
+border-width: 5px;
+border-radius: 50px;
   display: block;
-  margin: 10px auto;
-  max-width: 350px;
-} */
+  padding: 10px;
+margin-left: 500%;
+box-shadow: 10px 10px 5px #7686bd;
+margin: 20px;
+height: fit-content;
+  margin: 30px auto;
+  max-width: 500px;
+}
 
 /* Add design to my content section */
 .content {
@@ -84,7 +116,7 @@ height: fit-content;
 } 
 
 /* Add design to the id's  */
-.about-me, .portfolio, .contact-me  {
+.about-me, .portfolio, .contact-me, .resume {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -95,6 +127,8 @@ height: fit-content;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: #f1cbeb;
   color: #500250;  
+  /* min-width: 100px;
+  min-height: 30vh */
 } 
 
 .footer {
@@ -147,3 +181,5 @@ height: fit-content;
      color: #f1cbeb;
      background-color:darkslateblue;
 }
+
+

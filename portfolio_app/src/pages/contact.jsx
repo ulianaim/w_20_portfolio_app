@@ -1,7 +1,7 @@
 
 import Navbar from "../components/navbar";
 import ProjectContact from "../components/projectContact";
-import ContactForm from "../components/ContactForm"
+import ContactForm from "../components/ContactForm";
 
 
 function Contact () {

@@ -9,6 +9,9 @@ function ProjectAbout() {
           making other people's ideas into reality. If you find my work
           interesting please reach out and let's chat.
         </p>
+        <div className="myPicture">
+        <img src="./public/images/IMG_0218.jpeg" alt="Picture of Uliana" />
+        </div>
       </section>
     </section>
   );
