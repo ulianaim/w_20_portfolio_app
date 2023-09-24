@@ -22,8 +22,9 @@ function ContactForm() {
   };
 
   return (
-    <div>
-      <h2>Contact Us</h2>
+    <div className="content">
+        <section id="Contact-you" className="contact-me">
+      <h3>I will contact you </h3>
       <form onSubmit={handleSubmit}>
         <div className="form-group">
           <label htmlFor="name">Name</label>
@@ -58,8 +59,9 @@ function ContactForm() {
             required
           />
         </div>
-        <button type="submit">Submit</button>
+        <button className="button" type="submit">Submit</button>
       </form>
+      </section>
     </div>
   );
 }

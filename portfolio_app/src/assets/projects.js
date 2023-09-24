@@ -1,14 +1,14 @@
 const projects = [
     {
-        "title": "Weater App",
-        "image": "./images/weather_app.png",
-        "deploy": "https://ulianaim.github.io/w6_weather_calendar/",
-        "gitHub": "https://github.com/ulianaim/w6_weather_calendar"
+        "title": "Password generator",
+        "image": "./images/password.png",
+        "deploy": "https://ulianaim.github.io/w3_new_password/",
+        "gitHub": "https://github.com/ulianaim/w3_new_password"
     },
 
     {
-        "title": "You calendar",
-        "image": "./images/calendar.png",
+        "title": "Scheduler",
+        "image": "./images/scheduler.png",
         "deploy": "https://ulianaim.github.io/w5_calendar/",
         "gitHub": "https://github.com/ulianaim/w5_calendar"
     },
@@ -21,7 +21,7 @@ const projects = [
     },
 
     {
-        "title": "Weather Cal",
+        "title": "Weather Calendar",
         "image": "./images/weather.png",
         "deploy": "https://ulianaim.github.io/w6_weather_calendar/",
         "gitHub": "https://github.com/ulianaim/w6_weather_calendar"
@@ -29,7 +29,7 @@ const projects = [
 
     {
         "title": "Note Taker",
-        "image": "./images/note_taker.png",
+        "image": "./images/notes.png",
         "deploy": "https://hidden-citadel-93640-60ca4a7091ea.herokuapp.com/",
         "gitHub": "https://github.com/ulianaim/w_11_notes_taker-"
     },

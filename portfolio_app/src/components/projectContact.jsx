@@ -1,7 +1,7 @@
 function ProjectContact() {
   return (
     <section className="content">
-      <section id="Contact-me" className="contact-me">
+      <section className="contact-me">
         <h3>Contact me</h3>
         <ul>
           <li>Phone number: 4074445566</li>
@@ -14,3 +14,5 @@ function ProjectContact() {
 }
 
 export default ProjectContact;
+
+// id="Contact-me"
